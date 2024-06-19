@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD. Hasibul Hasan</title>
+    <title>MD Hasibul Hasan</title>
 
     <meta name="google-site-verification" content="0KH8M5aIws5OsWa_-hdN-h3N-Xz8m5hJ9_t4tlAH6b8" />
 
@@ -63,6 +63,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+    <div id="preloader"></div>
     <header class="container header-container">
         <div class="home-content" data-aos="fade-right">
             <h3>Hello, It's Me</h3>
@@ -516,7 +517,13 @@
         </div>
     </footer>
 
+    <script>
+        var loader = document.getElementById("preloader");
 
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
 
 
     <!---- Type Animation ------->
