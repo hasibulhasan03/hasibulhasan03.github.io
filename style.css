@@ -671,8 +671,8 @@ nav a.active {
 }
 
 .project-card:hover {
-  margin-top: -20px;
-  transition: .6s ease;
+  /* margin-top: -20px; */
+  transition: 0.6s ease;
   box-shadow: 0 10px 50px rgba(26, 56, 144, 0.5);
 }
 
