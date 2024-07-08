@@ -940,6 +940,7 @@ form .inputbox input[type="submit"] {
   padding: 10px;
   border: 2px solid var(--element-accent);
   transition: 0.4s ease;
+  border-radius: 10px;
 }
 
 form .inputbox input[type="submit"]:hover {
@@ -1297,6 +1298,51 @@ footer p {
     width: 100%;
   } */
 
+  form .inputbox span {
+    font-size: 13.5px;
+  }
+
+  .contact-container .contact-form {
+    padding: 25px;
+  }
+
+  .contact-container .contact-info {
+    padding: 25px;
+  }
+
+  .contact-form h2 {
+    font-size: 1.1rem;
+  }
+  .contact-info h2 {
+    font-size: 1.1rem;
+  }
+
+  form .inputbox input[type="submit"] {
+    max-width: 90px;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+  }
+
+  form .submit-btn {
+    margin-bottom: 0px;
+  }
+
+  .info-details ul.info {
+    margin: 20px 0;
+  }
+
+
+  .info-details ul.info li {
+    position: relative;
+    display: flex;
+    margin: 15px 0;
+    cursor: pointer;
+    align-items: flex-start;
+    gap: 10px;
+    font-weight: 300;
+}
+
 
   #preloader {
     background: #0e1e2f url(images/main-preloader.gif) no-repeat center center;
@@ -1306,5 +1352,9 @@ footer p {
     position: fixed;
     z-index: 100000;
   }
+
+  footer p {
+    font-size: 0.9rem;
+}
 }
 
