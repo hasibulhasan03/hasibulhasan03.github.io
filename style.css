@@ -1377,6 +1377,14 @@ footer p {
   .sci li a {
     font-size: 25px;
   }
+
+  .skills-wrapper {
+    gap: 20px;
+  }
+
+  .project-card-container {
+    gap: 20px;
+  }
   
 }
 
