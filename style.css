@@ -1129,7 +1129,7 @@ footer p {
   }
 
   header {
-    height: 92vh;
+    height: 80vh;
     width: auto;
     display: flex;
     flex-direction: column-reverse;
@@ -1149,14 +1149,14 @@ footer p {
   }
 
   .home-content {
-    margin-top: 2rem;
+    margin-top: 1.8rem;
   }
 
   .home-content h1 {
     font-size: 1.7rem;
   }
   .home-content h2 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .h2container {
@@ -1166,18 +1166,21 @@ footer p {
   }
 
   .h2container span {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .contact-buttons {
+    margin-top: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 0.9rem;
   }
   .social-media {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
   }
 
   nav {
