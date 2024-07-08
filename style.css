@@ -1129,14 +1129,14 @@ footer p {
   }
 
   header {
-    height: 100vh;
-    width: auto;
+    /* height: 100vh;
+    width: auto; */
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
     /* align-items: center;
     justify-content: center; */
-    padding: 3rem 0;
+    padding: 2rem 0;
   }
   
   .img-wrapper {
