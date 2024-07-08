@@ -1129,7 +1129,7 @@ footer p {
   }
 
   header {
-    height: 95vh;
+    height: 92vh;
     width: auto;
     display: flex;
     flex-direction: column-reverse;
