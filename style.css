@@ -1389,6 +1389,11 @@ footer a {
   .project-card-container {
     gap: 20px;
   }
+
+  form .inputbox input,
+  form .inputbox textarea {
+    font-size: 14px;
+}
   
 }
 
