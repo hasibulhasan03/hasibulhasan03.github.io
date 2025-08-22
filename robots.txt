@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://hasibulhasanmahi.me/sitemap.xml
+Sitemap: https://hasibulhasanmahi.dev/sitemap.xml
